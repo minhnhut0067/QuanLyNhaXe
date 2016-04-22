@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using www.Models;
 
 namespace www.Controllers
 {
@@ -16,5 +17,10 @@ namespace www.Controllers
             return View();
         }
 
+        public ActionResult Login(Users.Login login)
+        {
+            var value = Helpers.dataProcess.HttpPostData("229");
+            return View();            
+        }
     }
 }

@@ -45,6 +45,8 @@ namespace www
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include("~/Content/bootstrap.css"));
 
             bundles.Add(new StyleBundle("~/Content/fontawesome").Include("~/Content/font-awesome.css"));
+
+            bundles.Add(new StyleBundle("~/Content/login").Include("~/Content/User/Login.css"));
         }
     }
 }

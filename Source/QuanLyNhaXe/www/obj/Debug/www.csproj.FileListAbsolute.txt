@@ -30,3 +30,5 @@ D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\www\bin\System.Web.WebPages.R
 D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\www\obj\Debug\www.csprojResolveAssemblyReference.cache
 D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\www\obj\Debug\www.dll
 D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\www\obj\Debug\www.pdb
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\www\bin\Helpers.dll
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\www\bin\Helpers.pdb

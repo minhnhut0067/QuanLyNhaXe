@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutNoBg.cshtml";
+}
+@Styles.Render("~/Content/login")
+<div class="container login-forn">
+    <div class="row" id="pwd-container">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <section class="login-form">
+                <form method="post" action="@Url.Action("Login")" role="login">
+                    <img src="" class="img-responsive" alt="Logo here" />
+                    <input type="text" id="UserName" name="UserName" placeholder="Tên đăng nhập" required class="form-control input-sm" value="" />
+                    <input type="password" class="form-control input-sm" id="Password" name="Password" placeholder="Mật khẩu" required="" />
+                    <input id="RememberMe" type="checkbox" value="true" name="RememberMe" data-val="true">
+                    <input type="hidden" value="false" name="RememberMe">
+                    <label for="RememberMe">Nhớ mật khẩu</label>
+                    @*<div class="pwstrength_viewport_progress"></div>*@
+                    <button type="submit" name="go" class="btn btn-sm btn-primary btn-block">Đăng nhập</button>
+                    <div style="font-size: 12px;">
+                        <a href="@Url.Action("Register")">Đăng ký</a> or <a href="#">Quên mật khẩu</a>
+                    </div>
+                </form>
+                <div class="form-links">
+                    <a href="#">www.abc.com</a>
+                </div>
+            </section>
+        </div>
+
+        <div class="col-md-4"></div>
+    </div>
+</div>
