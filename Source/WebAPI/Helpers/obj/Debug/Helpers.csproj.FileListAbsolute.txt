@@ -1,0 +1,7 @@
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\WebAPI\Helpers\bin\Debug\Helpers.dll
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\WebAPI\Helpers\bin\Debug\Helpers.pdb
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\WebAPI\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\WebAPI\Helpers\obj\Debug\Helpers.dll
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\WebAPI\Helpers\obj\Debug\Helpers.pdb
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\WebAPI\Helpers\bin\Debug\Npgsql.dll
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\WebAPI\Helpers\bin\Debug\Npgsql.xml
