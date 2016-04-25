@@ -2,3 +2,6 @@ D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\Helpers\bin\Debug\Helpers.dll
 D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\Helpers\bin\Debug\Helpers.pdb
 D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\Helpers\obj\Debug\Helpers.dll
 D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\Helpers\obj\Debug\Helpers.pdb
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\Helpers\bin\Debug\Newtonsoft.Json.dll
+D:\nhut\Project\ASP\QuanLyNhaXe\Source\QuanLyNhaXe\Helpers\bin\Debug\Newtonsoft.Json.xml

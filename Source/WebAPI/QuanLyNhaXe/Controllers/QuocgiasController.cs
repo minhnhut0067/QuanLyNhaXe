@@ -40,8 +40,19 @@ namespace QuanLyNhaXe.Controllers
         }
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public IEnumerable<QuocGia> Post([FromBody]int id)
         {
+            try
+            {
+                var ds = QuocGia.GetAll();
+                List<QuocGia> lts = new List<QuocGia>();
+                lts.Add(ds.FirstOrDefault(p => p.idquocgia == id));
+                return lts;
+            }
+            catch
+            {
+                return null;
+            }
         }
         [HttpPut]
         // PUT api/values/5

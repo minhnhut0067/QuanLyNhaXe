@@ -62,7 +62,7 @@ namespace Helpers
             }
         }
 
-        public static string Encode(string value)
+        public static string SHAEncode(string value)
         {
             var hash = System.Security.Cryptography.SHA1.Create();
             var encoder = new System.Text.ASCIIEncoding();

@@ -32,12 +32,12 @@ CREATE TABLE users
   password_ character varying(255) NOT NULL,
   hoten character varying(255) NOT NULL,
   ngaysinh character varying(255) NOT NULL,
-  diachi character varying(255) NOT NULL,
-  sdt character varying(255) default '0',
-  email character varying(255) NOT NUll,
+  diachi character varying(255) DEFAULT '',
+  sdt character varying(255) DEFAULT '0',
+  email character varying(255) NOT NULL,
   ngay timestamp without time zone default now(),	
   ngayud timestamp without time zone default now(),
-  loaiuser character varying(5) NOT NULL,
+  loaiuser numeric(2,0) NOT NULL,
   CONSTRAINT users_pk PRIMARY KEY (iduser),
   CONSTRAINT users_loaiuser_fkey FOREIGN KEY (loaiuser)
   REFERENCES loaiuser (idloai) MATCH SIMPLE
@@ -49,6 +49,9 @@ WITH (
 ALTER TABLE users
   OWNER TO quanlynhaxe;
 GRANT ALL ON TABLE users TO public;
+
+INSERT INTO users(iduser, username_, password_, hoten, ngaysinh, email, loaiuser)
+VALUES('999999999900001', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'Nguyễn Minh Nhựt', '10/11/1991', 'minhnhu0056@gmail.com', 0);
 
 -- Danh sách quốc gia
 DROP TABLE IF EXISTS dmquocgia CASCADE;

@@ -137,6 +137,7 @@
     <Compile Include="Controllers\QuansController.cs" />
     <Compile Include="Controllers\QuocgiasController.cs" />
     <Compile Include="Controllers\TinhsController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Controllers\VungsController.cs" />
     <Compile Include="Controllers\XasController.cs" />
@@ -146,6 +147,7 @@
     <Compile Include="Models\Quan.cs" />
     <Compile Include="Models\QuocGia.cs" />
     <Compile Include="Models\Tinh.cs" />
+    <Compile Include="Models\UserLogin.cs" />
     <Compile Include="Models\Vung.cs" />
     <Compile Include="Models\Xa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
